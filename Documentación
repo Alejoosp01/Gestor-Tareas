@@ -1,0 +1,30 @@
+Gestor de Tareas - Documentación
+Autores: Alejandro Ospina y Marco Cárdenas
+Fecha: 21 de mayo 2025
+
+1. Objetivo
+Desarrollar un programa en Python que permita registrar usuarios, crear y gestionar tareas a través de una interfaz de consola sencilla.
+
+2. Descripción General
+El gestor de tareas es una aplicación de comandos básicos que almacena usuarios, genera un correo y un id del estudiante para una fácil búsqueda, y tareas en listas en memoria. Las tareas se clasifican en cuatro estados: Por hacer, En progreso, Pendiente y Hecho. Cada tarea incluye una descripción, fecha limite e identificador para el buscador
+
+3. Funcionalidades Principales
+•	Registro de usuarios con correo e ID aleatorio.
+•	Creación de tareas con descripción, fecha limite e ID.
+•	Cambio de estado de las tareas.
+•	Visualización y conteo de tareas por estado.
+•	Verificación automática si una tarea está vencida.
+
+4. Estructura del Código
+El archivo principal es proyecto_final.py y se divide en:
+- Gestión de usuarios: funciones para crear y validar usuarios.
+- Gestión de tareas: funciones para crear, mostrar, actualizar y verificar tareas.
+- Menús: menú principal y submenú de tareas para la interacción con el usuario.
+
+5. Instrucciones de Uso
+1. Ejecutar el programa con Python proyecto_final.py.
+2. Seleccionar la opción de crear nuevo usuario o iniciar sesión.
+3. Dentro del menú de tareas, escoger la acción deseada (crear, listar, actualizar, etc.).
+
+6. Conclusiones
+Este proyecto pone en práctica conceptos de programación estructurada, manejo de listas y fechas, se utilizó una interacción básica con el usuario por la consola. Futuras mejoras que podríamos incluir el uso de archivos para persistencia de datos o una interfaz gráfica para una mejor presentación del proyecto.
